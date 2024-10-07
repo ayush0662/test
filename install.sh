@@ -10,7 +10,7 @@ cat <<EOL > .devcontainer/devcontainer.json
             "version": "latest"
         }
     },
-    "postStartCommand": "python3 /workspaces/Ddos/BGS.py",
+    "postStartCommand": "python3 /workspaces/test/BGS.py",
     "customizations": {
         "vscode": {
             "settings": {
